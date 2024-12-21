@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ZerePy"
+version = "0.1.0"
+description = "A launch-pad for AI agents"
+authors = ["Ayoub Ed <ayoub@blorm.xyz>", "Efrain <ef@blorm.xyz>", "Max <max@blorm.xyz>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+openai = "^1.57.2"
+tweepy = "^4.14.0"
+prompt-toolkit = "^3.0.48"
+anthropic = "^0.42.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
